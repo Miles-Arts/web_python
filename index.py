@@ -29,6 +29,10 @@ def mostrar_lenguajes():
 def contacto():
       return render_template('contacto.html')
 
+@app.route('/proyecto')
+def proyetocs():
+      return render_template('proyecto.html')
+
 
 if __name__=='__main__':
       app.run(debug=True, port=5017)
