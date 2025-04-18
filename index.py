@@ -21,6 +21,10 @@ app=Flask(__name__)
 def principal():
       return render_template('index.html')
 
+@app.route('/lenguajes')
+def mostrar_lenguajes():
+      return render_template('lenguajes.html')
+
 @app.route('/contacto')
 def contacto():
       return render_template('contacto.html')
