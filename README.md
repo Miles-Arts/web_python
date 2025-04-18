@@ -1,24 +1,28 @@
-# 🌐 Web con Python y Flask 🤖
+# 🌐 Web con Python, Flask, Jinja y Bootstrap 🤖
 
-Este proyecto es una aplicación web creada utilizando **Python** y el microframework **Flask**. Además, se utiliza **HTML** para las plantillas de las páginas web.
+Este proyecto es una aplicación web creada utilizando **Python** y el microframework **Flask**. Además, se utiliza **HTML** con **Jinja2** para las plantillas dinámicas y **Bootstrap** para el diseño responsivo y estilizado de las páginas web.
 
 ## 🚀 Características
 - **Flask**: Framework ligero y fácil de usar para el desarrollo web.
-- **HTML**: Plantillas para la estructura y diseño de las páginas.
-- **Rutas**: Implementación de rutas para diferentes páginas como la principal y la de contacto.
+- **Jinja2**: Motor de plantillas para generar contenido dinámico en las páginas HTML.
+- **Bootstrap**: Framework CSS para un diseño moderno y responsivo.
+- **Rutas**: Implementación de rutas para diferentes páginas como la principal, lenguajes y contacto.
 
 ## 📂 Estructura del Proyecto
 ```
 WEB-PYTHON/
 ├── index.py          # Archivo principal de la aplicación Flask
 ├── templates/        # Carpeta que contiene las plantillas HTML
+│   ├── base.html     # Plantilla base con estructura común
 │   ├── index.html    # Página principal
 │   ├── contacto.html # Página de contacto
+│   ├── lenguajes.html # Página de lenguajes
 ```
 
 ## 🛠️ Requisitos
 - Python 3.7 o superior
 - Flask (instalable con `pip install flask`)
+- Bootstrap (integrado a través de CDN en las plantillas HTML)
 
 ## ▶️ Cómo ejecutar la aplicación
 1. Clona este repositorio o descarga los archivos.
@@ -45,4 +49,4 @@ WEB-PYTHON/
 Este proyecto está bajo la licencia MIT.
 
 ---
-¡Disfruta creando aplicaciones web con Python y Flask! 🎉
+¡Disfruta creando aplicaciones web con Python, Flask, Jinja y Bootstrap! 🎉
