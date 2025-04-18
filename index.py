@@ -23,7 +23,8 @@ def principal():
 
 @app.route('/lenguajes')
 def mostrar_lenguajes():
-      return render_template('lenguajes.html')
+      web_lenguajes=( 'Python', 'Java', 'C++', 'JavaScript', 'Cobol', 'Pascal', 'Fortran', 'C#', 'PHP', 'Ruby', 'Swift', 'Go', 'Rust', 'Kotlin', 'Dart')
+      return render_template('lenguajes.html',lenguajes=web_lenguajes)
 
 @app.route('/contacto')
 def contacto():

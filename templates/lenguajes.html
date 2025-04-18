@@ -4,5 +4,28 @@
 {% block title %} 📚 Lenguajes  {% endblock %}
 
 {%  block body  %}
-<h1>Sección de Lenguajes de Programción 📚 </h1>
+<div class="row">
+      <div class="col-md-4 offset-md-4">
+      <h1>Sección de Lenguajes de Programción 📚 </h1>
+      <div class="table-responsive">
+                  <table class="table table-striped">
+                        <thead >
+                              <tr>
+                                    <th >#</th>
+                                    <th >Nombre</th>
+                              </tr>
+                        </thead>
+                        <tbody>
+                              {% for lengua in lenguajes %}
+                              <tr>
+                                    <td>{{loop.index}}</td>
+                                    <td>{{lengua}}</td>
+                              </tr>
+                              {% endfor %}
+                        </tbody>
+                  </table>
+            </div>
+      </div>
+</div>
+
 {%  endblock  %}
