@@ -31,7 +31,7 @@ def contacto():
       return render_template('contacto.html')
 
 @app.route('/proyecto')
-def proyetocs():
+def proyectos():
       return render_template('proyecto.html')
 
 
