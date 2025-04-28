@@ -33,7 +33,12 @@ WEB-PYTHON/
 3. Crea y activa un entorno virtual (opcional pero recomendado):
    ```bash
    python -m venv venv
-   source venv/bin/activate  # En Windows: venv\Scripts\activate
+   # En Git Bash de Windows, usa:
+   source venv/Scripts/activate
+   # En CMD o PowerShell de Windows, usa:
+   venv\Scripts\activate
+   # En Linux/Mac, usa:
+   source venv/bin/activate
    ```
 4. Instala Flask:
    ```bash
